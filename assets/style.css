@@ -4,16 +4,52 @@
     border: 1px solid blue;
   }
 
-  div {
+  
+  .div2 {
     width: 90%auto;
     border: 15px solid rgb(39, 18, 228);
     padding: 50px;
     margin: 20px;
   }
+ 
   .center {
     margin: auto;
     height: 100px;
     width: 30%;
     border: 3px solid green;
     padding: 10px;
+  }
+
+  .container-viva {
+    position: relative;
+    margin: auto;
+    border: 2px solid rgb(172, 208, 56);
+  }
+  
+  .text-block-viva {
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(172, 208, 56);
+    color: black;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .container-emot {
+    position: relative;
+    margin: auto;
+    border: 2px solid rgb(227, 216, 160);
+  }
+
+  .text-block-emot {
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(227, 216, 160);
+    color: black;
+    padding-left: 2px;
+    padding-right: 2px;
   }
